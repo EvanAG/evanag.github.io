@@ -1,0 +1,22 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.masthead {
+	background-color: #eae8e1;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.logo {
+	max-width: 256px;
+	margin: 0 auto;
+}
+
+.nav {
+	text-align: center;
+}
+
+
