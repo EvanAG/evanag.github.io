@@ -8,6 +8,7 @@ body {
 	background-color: #eae8e1;
 	text-align: center;
 	margin: 0 auto;
+	position: fixed;
 }
 
 .nav {
@@ -20,17 +21,17 @@ ul {
 
 .header-li {
 	display:block;
-	pading: 1rem;
 }
 
 .header-group {
-
+	padding: 0;
 }
 
 @media only screen and (min-width: 20em) {
 
   .header-li {
   	display: inline;
+  	padding: 0.75em;
 }
 
 }
