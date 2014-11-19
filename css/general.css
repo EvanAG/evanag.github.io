@@ -1,14 +1,32 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+*, *:before, *:after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 html,
 body {
 	margin: 0;
 	padding: 0;
 }
 
+
+.flex-img {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
 .masthead {
 	background-color: #eae8e1;
 	text-align: center;
 	margin: 0 auto;
-	position: fixed;
 }
 
 .nav {
@@ -24,7 +42,7 @@ ul {
 }
 
 .header-group {
-	padding: 0;
+	padding: 1rem;
 }
 
 @media only screen and (min-width: 20em) {
@@ -34,4 +52,105 @@ ul {
   	padding: 0.75em;
 }
 
+}
+
+.banner {
+	background: #000 url(http://placekitten.com/2000/700) no-repeat center center;
+	background-size: cover;
+	padding: 5rem 2%;
+}
+
+@media only screen and (min-width: 35em) {
+	.banner {
+		padding: 10rem;
+	}
+}
+
+.logo {
+	width: 150px;
+}
+
+.banner p {
+	color: #FFF;
+	text-align: center;
+}
+
+.about {
+	background: #000 url(http://placekitten.com/2000/700) no-repeat center center;
+	background-size: cover;
+	padding: 5rem 2%;
+}
+
+@media only screen and (min-width: 35em) {
+	.about {
+		padding: 10rem;
+	}
+}
+
+.about h1 {
+	color: #FFF;
+	text-align: center;
+	margin: auto 0;
+}
+
+.about p {
+	color: #FFF;
+}
+
+/* WORK ----------------------------------------------- */
+
+.work-fig {
+	position: relative;
+	overflow: hidden;
+}
+
+.work-info {
+	background-color: rgba(255, 7, 6, 0.5);
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: 0;
+	text-align: center;
+	opacity: 0;
+	filter:blur(300px);
+}
+
+.work-fig:hover .work-info,
+.work-fig:active .work-info,
+.work-fig:focus .work-info {
+	-webkit-animation: scale-up 500ms linear forwards;
+	animation: scale-up 500ms linear forwards;
+
+}
+
+@-webkit-keyframes scale-up {
+	from {
+		transform: scale(0,0);
+		-webkit-transform: scale(0,0);
+		opacity: 0;
+		filter: blur(1300px);
+	}
+	to {
+		transform: scale(1,1);
+		-webkit-transform: scale(1,1);
+		opacity: 1;
+		filter: blur(300px);
+	}
+}
+
+.footer {
+	background-color: #eae8e1;
+	margin: 0 auto;
+	text-align: center;
+	padding: 1rem;
+}
+
+ .footer-li {
+  	display: inline;  
+  	padding: 0.3em;	
+}
+
+.footer__links {
+	padding: 0;
 }
