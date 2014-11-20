@@ -57,7 +57,7 @@
 }
 
 .fancybox-error {
-	color: #444;
+	color: #FFF;
 	font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
 	margin: 0;
 	padding: 15px;
@@ -115,7 +115,7 @@
 	cursor: pointer;
 	text-decoration: none;
 	background: transparent url('blank.gif'); /* helps IE */
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: rgb(255,255,255);
 	z-index: 8040;
 }
 
@@ -257,7 +257,6 @@
 	background: rgba(0, 0, 0, .8);
 }
 
-/*Retina graphics!*/
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 	   only screen and (min--moz-device-pixel-ratio: 1.5),
 	   only screen and (min-device-pixel-ratio: 1.5){
