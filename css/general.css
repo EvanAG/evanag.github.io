@@ -93,6 +93,8 @@ nav a:focus {
 	background: #000 url(http://placehold.it/1200x700/282828) no-repeat center center;
 	background-size: cover;
 	padding: 5rem 2%;
+	z-index: 1;
+
 }
 
 @media only screen and (min-width: 35em) {
@@ -164,21 +166,15 @@ nav a:focus {
 .work-fig:hover .work-info,
 .work-fig:active .work-info,
 .work-fig:focus .work-info {
-	-webkit-animation: opacity 500ms ease-in-out forwards;
-	-moz-animation: opacity 500ms ease-in-out forwards;
-	-ms-animation: opacity 500ms ease-in-out forwards;
-	-o-animation: opacity 500ms ease-in-out forwards;
-	animation: opacity 500ms ease-in-out forwards;
+	-webkit-transition: opacity 350ms ease-in-out;
+	-moz-transition: opacity 350ms ease-in-out;
+    -ms-transition: opacity 350ms ease-in-out;
+    -o-transition: opacity 350ms ease-in-out;
+	transition: opacity 350ms ease-in-out;
 }
 
-@-webkit-keyframes opacity {
-	0% {
-		opacity: 0;
-	}
-
-	100% {
-		opacity: 1;
-	}
+.work-fig:hover .work-info {
+	opacity: 1;
 }
 
 /* FOOTER  ------------------------------------------- */
