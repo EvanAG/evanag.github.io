@@ -159,29 +159,25 @@ nav a:focus {
 	top: 0;
 	text-align: center;
 	opacity: 0;
-	filter:blur(300px);
 }
 
 .work-fig:hover .work-info,
 .work-fig:active .work-info,
 .work-fig:focus .work-info {
-	-webkit-animation: scale-up 500ms linear forwards;
-	animation: scale-up 500ms linear forwards;
-
+	-webkit-animation: opacity 500ms ease-in-out forwards;
+	-moz-animation: opacity 500ms ease-in-out forwards;
+	-ms-animation: opacity 500ms ease-in-out forwards;
+	-o-animation: opacity 500ms ease-in-out forwards;
+	animation: opacity 500ms ease-in-out forwards;
 }
 
-@-webkit-keyframes scale-up {
-	from {
-		transform: scale(0,0);
-		-webkit-transform: scale(0,0);
+@-webkit-keyframes opacity {
+	0% {
 		opacity: 0;
-		filter: blur(1300px);
 	}
-	to {
-		transform: scale(1,1);
-		-webkit-transform: scale(1,1);
+
+	100% {
 		opacity: 1;
-		filter: blur(300px);
 	}
 }
 
