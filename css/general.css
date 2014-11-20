@@ -152,7 +152,7 @@ nav a:focus {
 	overflow: hidden;
 }
 
-.work-info {
+.work-fig .work-info {
 	background-color: rgba(255, 255, 255, 0.4);
 	position: absolute;
 	bottom: 0;
@@ -161,11 +161,6 @@ nav a:focus {
 	top: 0;
 	text-align: center;
 	opacity: 0;
-}
-
-.work-fig:hover .work-info,
-.work-fig:active .work-info,
-.work-fig:focus .work-info {
 	-webkit-transition: opacity 350ms ease-in-out;
 	-moz-transition: opacity 350ms ease-in-out;
     -ms-transition: opacity 350ms ease-in-out;
@@ -173,7 +168,9 @@ nav a:focus {
 	transition: opacity 350ms ease-in-out;
 }
 
-.work-fig:hover .work-info {
+.work-fig:hover .work-info,
+.work-fig:active .work-info,
+.work-fig:focus .work-info {
 	opacity: 1;
 }
 
