@@ -27,7 +27,7 @@
 .fancybox-skin {
 	position: relative;
 	background: #f9f9f9;
-	color: #FFF;
+	color: #000;
 	text-shadow: none;
 	-webkit-border-radius: 4px;
 	   -moz-border-radius: 4px;
@@ -57,7 +57,7 @@
 }
 
 .fancybox-error {
-	color: #FFF;
+	color: #000;
 	font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
 	margin: 0;
 	padding: 15px;
@@ -251,7 +251,7 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	color: #fff;
+	color: #000;
 	padding: 10px;
 	background: #000;
 	background: rgba(0, 0, 0, .8);
