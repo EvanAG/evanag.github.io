@@ -168,6 +168,7 @@ nav a:focus {
     -ms-transition: opacity 350ms ease-in-out;
     -o-transition: opacity 350ms ease-in-out;
 	transition: opacity 350ms ease-in-out;
+	pointer-events:none;
 }
 
 .work-fig:hover .work-info,
