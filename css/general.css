@@ -90,11 +90,10 @@ nav a:focus {
 }
 
 .banner {
-	background: images/top-banner.jpg no-repeat center center;
+	background-image: url(../images/top-banner-2.jpg);
 	background-size: cover;
 	padding: 5rem 2%;
 	z-index: 1;
-
 }
 
 @media only screen and (min-width: 35em) {
