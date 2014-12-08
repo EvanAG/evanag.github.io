@@ -90,7 +90,7 @@ nav a:focus {
 }
 
 .banner {
-	background: #000 url(http://placehold.it/1200x700/282828) no-repeat center center;
+	background: images/top-banner.jpg no-repeat center center;
 	background-size: cover;
 	padding: 5rem 2%;
 	z-index: 1;
