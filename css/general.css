@@ -38,7 +38,7 @@ a {
 	left: 0;
 	right:0;
 	top:0;
-	z-index: 9000;
+	z-index: 200;
 }
 
 .nav {
@@ -90,7 +90,7 @@ nav a:focus {
 }
 
 .banner {
-	background-image: url(../images/top-banner-2.jpg);
+	background: url(../images/top-banner-2.jpg) no-repeat center center;
 	background-size: cover;
 	padding: 5rem 2%;
 	z-index: 1;
@@ -113,7 +113,7 @@ nav a:focus {
 }
 
 .about {
-	background: #000 url(http://placehold.it/1200x700/444444) no-repeat center center;
+	background: url(../images/about-me.jpg) no-repeat center center;
 	background-size: cover;
 	padding: 5rem 2%;
 }
@@ -201,7 +201,7 @@ nav a:focus {
 }
 
 .contact {
-	background-image: url(../images/top-banner-3.jpg);
+	background: url(../images/top-banner-3.jpg)  no-repeat center center;
 	background-size: cover;
 	padding: 5rem 2%;
 }
