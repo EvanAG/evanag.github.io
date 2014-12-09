@@ -152,10 +152,12 @@ nav a:focus {
 }
 
 .work-fig .work-info {
-	background-color: rgba(000, 000, 000, 0.3);
+	background-color: rgba(000, 000, 000, 0.5);
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+	padding-top: 70%;
+	padding-bottom: 70%;
 	right: 0;
 	left: 0;
 	text-align: center;
