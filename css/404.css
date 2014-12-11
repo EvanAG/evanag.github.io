@@ -19,12 +19,13 @@ a {
 }
 
 .error {
-	margin-top: 18rem;
+	margin-top: 50%;
 }
 
 .error p {
 	color: #FFF;
 	text-align: center;
+	padding: 0 5%;
 }
 
 .error a,
@@ -42,3 +43,5 @@ a {
 .error a:active,
 .error a:focus {
 	color: #FF6D00;
+
+}	
