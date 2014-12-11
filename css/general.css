@@ -103,7 +103,15 @@ nav a:focus {
 }
 
 .logo {
-	width: 250px;
+	width: 100px;
+	margin-top: 3rem;
+}
+
+@media only screen and (min-width: 20em) {
+	.logo {
+		width: 250px;
+		margin-top: 1rem;
+	}
 }
 
 .banner p {
