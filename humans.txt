@@ -1,0 +1,20 @@
+# PEOPLE
+
+Designer: Evan Grice
+E-Mail: hey@evandgrice.ca
+Location: Ottawa, Canada
+Website: evanandgrice.ca
+GutHub: http://github.com/evanag
+Twitter: @evgrice
+
+# THANKS
+
+To all creative common image owners whose images were used.
+
+# TOOLS
+
+Sublime Text
+GitHub
+Photoshop
+Illustrator
+Hover.com
