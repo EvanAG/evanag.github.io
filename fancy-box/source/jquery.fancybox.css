@@ -26,7 +26,7 @@
 
 .fancybox-skin {
 	position: relative;
-	background: #f9f9f9;
+	background: #000;
 	color: #000;
 	text-shadow: none;
 	-webkit-border-radius: 4px;
@@ -58,7 +58,7 @@
 
 .fancybox-error {
 	color: #000;
-	font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font: 14px/20px "Exo 2", sans-serif;
 	margin: 0;
 	padding: 15px;
 	white-space: nowrap;
@@ -202,11 +202,14 @@
 
 .fancybox-title {
 	visibility: hidden;
-	font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font: normal 13px/20px "Exo 2", sans-serif;
+	font-size: 200;
 	position: relative;
 	text-shadow: none;
 	z-index: 8050;
 }
+
+
 
 .fancybox-opened .fancybox-title {
 	visibility: visible;

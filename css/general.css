@@ -22,7 +22,6 @@ a {
 	text-decoration: none;
 }
 
-
 .flex-img {
 	display: block;
 	width: 100%;
@@ -194,6 +193,7 @@ nav a:focus {
 /* FOOTER  ------------------------------------------- */
 
 
+
 .footer {
 	color: #FFF;
 	margin: 0 auto;
@@ -251,6 +251,7 @@ nav a:focus {
 	margin-top: 1rem;
 }
 
+
 footer a,
 footer a:link,
 footer a:visited {
@@ -266,4 +267,12 @@ footer a:hover,
 footer a:active,
 footer a:focus {
 	color: #FF6D00;
+}
+
+.copyright {
+	color: #6c6666;
+	background-color: #000;
+	text-align: center;
+	padding-top: 1%;	
+	padding-bottom: 1%;
 }
