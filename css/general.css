@@ -124,7 +124,8 @@ nav a:focus {
 }
 
 .about {
-	background: url(../images/about-me.jpg) no-repeat center center;
+	/*background: url(../images/about-me.jpg) no-repeat center center; */
+	background-color: #FFF;
 	background-size: cover;
 	padding: 5rem 2%;
 }
@@ -142,13 +143,14 @@ nav a:focus {
 }
 
 .about h1 {
-	color: #FFF;
+	color: rgba(0,0,0,0.7);
 	text-align: center;
 	margin: auto 0;
 }
 
 .about p {
-	color: #FFF;
+	color: rgba(0,0,0,0.5);
+	text-align: center;
 }
 
 /* WORK ----------------------------------------------- */
