@@ -219,6 +219,33 @@ nav a:focus {
 	z-index: 1;
 }
 
+
+.email {
+	font-family: "Exo 2", sans-serif;
+	font-weight: 700;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.address,
+.address:link,
+.address:visited {
+	color: #FFF;
+	-webkit-transition: color 350ms ease-in-out;
+	-moz-transition: color 350ms ease-in-out;
+    -ms-transition: color 350ms ease-in-out;
+    -o-transition: color 350ms ease-in-out;
+	transition: color 350ms ease-in-out;
+}
+
+.address:hover,
+.address:active,
+.address:focus {
+	color: #FF6D00;
+}
+
+
+
 @media only screen and (min-width: 35em) {
 	.contact {
 		padding: 10rem;
@@ -240,15 +267,9 @@ nav a:focus {
 	margin: auto 0;
 }
 
-.contact p {
+.prosper {
 	color: #FFF;
 	text-align: center;
-}
-
-.email {
-	font-family: "Exo 2", sans-serif;
-	font-weight: 700;
-	margin-top: 1rem;
 }
 
 
