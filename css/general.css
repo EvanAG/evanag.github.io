@@ -196,6 +196,12 @@ nav a:focus {
 
 @media only screen and (min-width: 70em) {
 	.about {
+		padding: 10rem 10rem;
+	}
+}
+
+@media only screen and (min-width: 120em) {
+	.about {
 		padding: 10rem 20rem;
 	}
 }
