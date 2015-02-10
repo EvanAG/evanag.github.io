@@ -194,6 +194,12 @@ nav a:focus {
 	}
 }
 
+@media only screen and (min-width: 70em) {
+	.about {
+		padding: 20rem 10rem;
+	}
+}
+
 .about h1 {
 	color: rgba(0,0,0,0.7);
 	text-align: center;
