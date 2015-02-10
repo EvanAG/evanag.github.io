@@ -104,7 +104,57 @@ nav a:focus {
 .logo {
 	width: 100px;
 	margin-top: 3rem;
+	margin-bottom: 6em;
 }
+
+.arrow {
+	width: 50px;
+	margin-bottom: -4em;
+	overflow: hidden;
+	-ms-animation: slide-up 3000ms ease-out;
+    -moz-animation: slide-up 3000ms ease-out;
+    -o-animation: slide-up 3000ms ease-out;
+    -webkit-animation: slide-up 3000ms ease-out;
+    animation: slide-up 3000ms ease-out;
+}
+
+
+@-webkit-keyframes slide-up {
+    0% {
+        top: 10em;
+    }
+    100% {
+        top:0;
+    }    
+}
+
+@-moz-keyframes slide-up {
+    0% {
+        top: 10em;
+    }
+    100% {
+        top:0;
+    }    
+}
+
+@-ms-keyframes slide-up {
+    0% {
+        top: 10em;
+    }
+    100% {
+        top:0;
+    }    
+}
+
+@keyframes slide-up {
+    0% {
+        top: 10em;
+    }
+    100% {
+        top:0;
+    }    
+}
+
 
 @media only screen and (min-width: 20em) {
 	.logo {
