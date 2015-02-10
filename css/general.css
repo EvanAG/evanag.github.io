@@ -111,47 +111,49 @@ nav a:focus {
 	width: 50px;
 	margin-bottom: -4em;
 	overflow: hidden;
-	-ms-animation: slide-up 3000ms ease-out;
-    -moz-animation: slide-up 3000ms ease-out;
-    -o-animation: slide-up 3000ms ease-out;
-    -webkit-animation: slide-up 3000ms ease-out;
-    animation: slide-up 3000ms ease-out;
+	position: relative;
+	-ms-animation: slide-up 100ms ease-out;
+    -moz-animation: slide-up 100ms ease-out;
+    -o-animation: slide-up 100ms ease-out;
+    -webkit-animation: slide-up 100ms ease-out;
+    animation: slide-up 100ms ease-out;
+    transition: all 250ms linear;
 }
 
 
 @-webkit-keyframes slide-up {
     0% {
-        top: 10em;
+        top: 0;
     }
     100% {
-        top:0;
+        top:5rem;
     }    
 }
 
 @-moz-keyframes slide-up {
     0% {
-        top: 10em;
+        top: 0;
     }
     100% {
-        top:0;
+        top:5rem;
     }    
 }
 
 @-ms-keyframes slide-up {
     0% {
-        top: 10em;
+        top: 0;
     }
     100% {
-        top:0;
+        top:5rem;
     }    
 }
 
 @keyframes slide-up {
     0% {
-        top: 10em;
+        top: 0;
     }
     100% {
-        top:0;
+        top:5rem;
     }    
 }
 
