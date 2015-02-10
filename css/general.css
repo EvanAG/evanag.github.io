@@ -103,7 +103,6 @@ nav a:focus {
 
 .logo {
 	width: 100px;
-	margin-top: 3rem;
 	margin-bottom: 6em;
 }
 
@@ -196,14 +195,13 @@ nav a:focus {
 
 @media only screen and (min-width: 70em) {
 	.about {
-		padding: 10rem 10rem;
+		padding: 10rem 20rem;
 	}
 }
 
-@media only screen and (min-width: 120em) {
+@media only screen and (min-width: 130em) {
 	.about {
-		padding-left: 50rem;
-		padding-right: 50rem;
+		padding:10rem 50rem;
 	}
 }
 
