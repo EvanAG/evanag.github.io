@@ -202,8 +202,8 @@ nav a:focus {
 
 @media only screen and (min-width: 120em) {
 	.about {
-		padding-left: 40rem;
-		padding-right: 40rem;
+		padding-left: 50rem;
+		padding-right: 50rem;
 	}
 }
 
