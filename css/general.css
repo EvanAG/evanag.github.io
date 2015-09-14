@@ -29,7 +29,7 @@ a {
 }
 
 .masthead {
-	background-color: rgba(255, 255, 255,0.85);
+	background-color: #FFF;
 	text-align: center;
 	margin: 0 auto;
 	position: fixed;
@@ -63,7 +63,7 @@ nav a:visited {
 nav a:hover,
 nav a:active,
 nav a:focus {
-	color: #FF6D00;
+	color: #3605d6;
 }
 
 
@@ -181,10 +181,29 @@ nav a:focus {
 	padding: 5rem 2%;
 }
 
+@media only screen and (min-width: 30em) {
+
+	.work-fig .work-info {
+		opacity: 0;
+		-webkit-transition: opacity 350ms ease-in-out;
+		-moz-transition: opacity 350ms ease-in-out;
+	    -ms-transition: opacity 350ms ease-in-out;
+	    -o-transition: opacity 350ms ease-in-out;
+		transition: opacity 350ms ease-in-out;
+	}
+
+	.work-fig:hover .work-info,
+	.work-fig:active .work-info,
+	.work-fig:focus .work-info {
+		opacity: 1;
+}
+}
+
 @media only screen and (min-width: 35em) {
 	.about {
 		padding: 10rem 5rem;
 	}
+
 }
 
 @media only screen and (min-width: 50em) {
@@ -239,19 +258,7 @@ nav a:focus {
 	text-align: center;
 	text-decoration: none;
 	color: #FFF;
-	opacity: 0;
-	-webkit-transition: opacity 350ms ease-in-out;
-	-moz-transition: opacity 350ms ease-in-out;
-    -ms-transition: opacity 350ms ease-in-out;
-    -o-transition: opacity 350ms ease-in-out;
-	transition: opacity 350ms ease-in-out;
 	pointer-events:none;
-}
-
-.work-fig:hover .work-info,
-.work-fig:active .work-info,
-.work-fig:focus .work-info {
-	opacity: 1;
 }
 
 
