@@ -89,8 +89,7 @@ nav a:focus {
 }
 
 .banner {
-	/*ackground-colour: url(../images/top-banner-2.jpg) no-repeat center center;*/
-	background-color: #FFF;
+	background: url(../images/top-banner-2.jpg) no-repeat center center;
 	background-size: cover;
 	padding: 5rem 2%;
 	z-index: 1;
@@ -207,13 +206,13 @@ nav a:focus {
 }
 
 .about h1 {
-	color: #5103f0;
+	color: rgba(0,0,0,0.7);
 	text-align: center;
 	margin: auto 0;
 }
 
 .about p {
-	color: #252525;
+	color: rgba(0,0,0,0.5);
 	text-align: center;
 }
 
@@ -279,8 +278,7 @@ nav a:focus {
 }
 
 .contact {
-	/*background: url(../images/top-banner-3.jpg)  no-repeat center center; */
-	background-color: #252525;
+	background: url(../images/top-banner-3.jpg)  no-repeat center center;
 	background-size: cover;
 	padding: 5rem 2%;
 	z-index: 1;
@@ -342,7 +340,7 @@ nav a:focus {
 footer a,
 footer a:link,
 footer a:visited {
-	color: 7a6cd0;
+	color: #D6AB8D;
 	-webkit-transition: color 350ms ease-in-out;
 	-moz-transition: color 350ms ease-in-out;
     -ms-transition: color 350ms ease-in-out;
@@ -353,12 +351,12 @@ footer a:visited {
 footer a:hover,
 footer a:active,
 footer a:focus {
-	color: #5103f0;
+	color: #FF6D00;
 }
 
 .copyright {
 	color: #6c6666;
-	background-color: #252525;
+	background-color: #000;
 	text-align: center;
 	padding-top: 1%;	
 	padding-bottom: 1%;
