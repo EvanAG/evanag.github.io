@@ -207,13 +207,13 @@ nav a:focus {
 }
 
 .about h1 {
-	color: rgba(0,0,0,0.7);
+	color: #5103f0;
 	text-align: center;
 	margin: auto 0;
 }
 
 .about p {
-	color: rgba(0,0,0,0.5);
+	color: #252525;
 	text-align: center;
 }
 
@@ -279,7 +279,8 @@ nav a:focus {
 }
 
 .contact {
-	background: url(../images/top-banner-3.jpg)  no-repeat center center;
+	/*background: url(../images/top-banner-3.jpg)  no-repeat center center; */
+	background-color: #252525;
 	background-size: cover;
 	padding: 5rem 2%;
 	z-index: 1;
@@ -341,7 +342,7 @@ nav a:focus {
 footer a,
 footer a:link,
 footer a:visited {
-	color: #D6AB8D;
+	color: 7a6cd0;
 	-webkit-transition: color 350ms ease-in-out;
 	-moz-transition: color 350ms ease-in-out;
     -ms-transition: color 350ms ease-in-out;
@@ -352,12 +353,12 @@ footer a:visited {
 footer a:hover,
 footer a:active,
 footer a:focus {
-	color: #FF6D00;
+	color: #5103f0;
 }
 
 .copyright {
 	color: #6c6666;
-	background-color: #000;
+	background-color: #252525;
 	text-align: center;
 	padding-top: 1%;	
 	padding-bottom: 1%;
