@@ -89,7 +89,8 @@ nav a:focus {
 }
 
 .banner {
-	background: url(../images/top-banner-2.jpg) no-repeat center center;
+	/*ackground-colour: url(../images/top-banner-2.jpg) no-repeat center center;*/
+	background-color: #FFF;
 	background-size: cover;
 	padding: 5rem 2%;
 	z-index: 1;
