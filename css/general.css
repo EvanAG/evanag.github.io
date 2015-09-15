@@ -63,7 +63,7 @@ nav a:visited {
 nav a:hover,
 nav a:active,
 nav a:focus {
-	color: #3605d6;
+	color: #f4068e;
 }
 
 
@@ -75,7 +75,7 @@ nav a:focus {
 
 .header-group {
 	font-family: "Exo 2", sans-serif;
-	font-weight: 200;
+	font-weight: 500;
 	padding: 1rem;
 }
 
@@ -89,7 +89,7 @@ nav a:focus {
 }
 
 .banner {
-	background: url(../images/top-banner-2.jpg) no-repeat center center;
+	background: url(../images/top-banner-new-2.jpg) no-repeat center center;
 	background-size: cover;
 	padding: 5rem 2%;
 	z-index: 1;
@@ -175,7 +175,7 @@ nav a:focus {
 }
 
 .about {
-	/*background: url(../images/about-me.jpg) no-repeat center center; */
+	/*background: url(../images/about-me-2.jpg) no-repeat center center; */
 	background-color: #FFF;
 	background-size: cover;
 	padding: 5rem 2%;
@@ -285,7 +285,8 @@ nav a:focus {
 }
 
 .contact {
-	background: url(../images/top-banner-3.jpg)  no-repeat center center;
+	/*background: url(../images/top-banner-3.jpg)  no-repeat center center;*/
+	background: url(../images/about-me-2.jpg) no-repeat center center;
 	background-size: cover;
 	padding: 5rem 2%;
 	z-index: 1;
@@ -302,7 +303,7 @@ nav a:focus {
 .address,
 .address:link,
 .address:visited {
-	color: #FFF;
+	color: rgba(255,255,255,0.7);
 	-webkit-transition: color 350ms ease-in-out;
 	-moz-transition: color 350ms ease-in-out;
     -ms-transition: color 350ms ease-in-out;
@@ -313,7 +314,7 @@ nav a:focus {
 .address:hover,
 .address:active,
 .address:focus {
-	color: #FF6D00;
+	color: #FFF;
 }
 
 
@@ -347,7 +348,7 @@ nav a:focus {
 footer a,
 footer a:link,
 footer a:visited {
-	color: #D6AB8D;
+	color: rgba(255,255,255,0.7);
 	-webkit-transition: color 350ms ease-in-out;
 	-moz-transition: color 350ms ease-in-out;
     -ms-transition: color 350ms ease-in-out;
@@ -358,7 +359,7 @@ footer a:visited {
 footer a:hover,
 footer a:active,
 footer a:focus {
-	color: #FF6D00;
+	color: #FFF;
 }
 
 .copyright {
