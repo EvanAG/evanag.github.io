@@ -1,7 +1,7 @@
 # PEOPLE
 
 Designer: Evan Grice
-E-Mail: hey@evandgrice.ca
+E-Mail: hello@evandgrice.ca
 Location: Ottawa, Canada
 Website: evanandgrice.ca
 GutHub: http://github.com/evanag
