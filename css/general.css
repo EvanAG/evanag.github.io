@@ -102,7 +102,7 @@ nav a:focus {
 }
 
 .banner {
-	background: url(../images/top-banner-new-2.jpg) no-repeat center center;
+	background: url(../images/cover-2016.jpg) no-repeat center center;
 	background-size: cover;
 	padding: 5rem 2%;
 	z-index: 1;
@@ -115,8 +115,8 @@ nav a:focus {
 }
 
 .logo {
-	width: 100px;
-	margin-bottom: 6em;
+	width: 300px;
+	margin-bottom: 2em;
 }
 
 .arrow {
@@ -304,7 +304,7 @@ nav a:focus {
 
 .contact {
 	/*background: url(../images/top-banner-3.jpg)  no-repeat center center;*/
-	background: url(../images/about-me-3.jpg) no-repeat center center;
+	background: url(../images/bottom-cover.jpg) no-repeat center center;
 	background-size: cover;
 	padding: 5rem 2%;
 	z-index: 1;
@@ -321,7 +321,7 @@ nav a:focus {
 .address,
 .address:link,
 .address:visited {
-	color: rgba(255,255,255,0.7);
+	color: #FFF;
 	-webkit-transition: color 350ms ease-in-out;
 	-moz-transition: color 350ms ease-in-out;
     -ms-transition: color 350ms ease-in-out;
@@ -332,7 +332,7 @@ nav a:focus {
 .address:hover,
 .address:active,
 .address:focus {
-	color: #FFF;
+	color: rgba(255,255,255,0.7);
 }
 
 
@@ -366,7 +366,7 @@ nav a:focus {
 footer a,
 footer a:link,
 footer a:visited {
-	color: rgba(255,255,255,0.7);
+	color: #FFF;
 	-webkit-transition: color 350ms ease-in-out;
 	-moz-transition: color 350ms ease-in-out;
     -ms-transition: color 350ms ease-in-out;
@@ -377,7 +377,7 @@ footer a:visited {
 footer a:hover,
 footer a:active,
 footer a:focus {
-	color: #FFF;
+	color: rgba(255,255,255,0.7);
 }
 
 .copyright {
