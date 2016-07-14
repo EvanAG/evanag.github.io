@@ -172,7 +172,7 @@ nav a:focus {
 
 @media only screen and (min-width: 20em) {
 	.logo {
-		width: 400px;
+		width: 500px;
 		margin-top: 1rem;
 	}
 }
